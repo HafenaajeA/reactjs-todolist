@@ -19,10 +19,20 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: linear-gradient(to left bottom);
+  background: linear-gradient(to left bottom, lightgreen, lightblue);
   gap: 14px;
 }
-
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Press Start 2P";
+  font-weight: 500;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: red;
+}
 header {
   display: flex;
   align-items: stretch;
